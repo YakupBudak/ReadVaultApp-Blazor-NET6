@@ -10,16 +10,6 @@ store a variety of literature formats and access them from any internet-enabled 
 - Customise fonts and paper colours to tailor the reading experience to your personal preferences.
 - Platform-independent access
 
-#### Target group
+### Target group
 This application is aimed at readers, students, teachers and anyone who wants to efficiently collect and manage literature content.
 
-```flow
-st=>start: ReadVault
-op=>operation: Choose your reading
-cond=>condition: found yet?
-e=>end: happy reading
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
