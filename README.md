@@ -18,6 +18,7 @@ st=>start: ReadVault
 op=>operation: Choose your reading
 cond=>condition: found yet?
 e=>end: happy reading
+
 st->op->cond
 cond(yes)->e
 cond(no)->op
