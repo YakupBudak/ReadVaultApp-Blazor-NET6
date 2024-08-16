@@ -13,13 +13,11 @@ store a variety of literature formats and access them from any internet-enabled 
 #### Target group
 This application is aimed at readers, students, teachers and anyone who wants to efficiently collect and manage literature content.
 
-```
-flow
+```flow
 st=>start: ReadVault
 op=>operation: Choose your reading
 cond=>condition: found yet?
 e=>end: happy reading
-
 st->op->cond
 cond(yes)->e
 cond(no)->op
