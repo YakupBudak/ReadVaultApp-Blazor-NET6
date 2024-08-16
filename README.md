@@ -5,6 +5,7 @@ store a variety of literature formats and access them from any internet-enabled 
 ![](https://img.shields.io/github/issues/pandao/editor.md.svg)
 
 ---
+
 ##Base usage
 - Comprehensive literature management
 - Store and manage novels, teaching materials, PDFs and other literary formats.
@@ -13,6 +14,7 @@ store a variety of literature formats and access them from any internet-enabled 
 
 
 ---
+
 ####Target group
 This application is aimed at readers, students, teachers and anyone who wants to efficiently collect and manage literature content.
 
