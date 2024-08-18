@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 namespace ReadVault.API
@@ -6,9 +7,13 @@ namespace ReadVault.API
     {
         public static void Main(string[] args)
         {
+            
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            var connString = builder.Configuration.GetConnectionString("ReadVaultAppDbConnection");
+            //builder.Services.AddDbContext<ReadVaultDbContext>(options => options.UseSqlServer(connString));
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
