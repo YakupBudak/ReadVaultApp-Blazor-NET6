@@ -13,7 +13,7 @@ namespace ReadVaultApp.Models
 
            [Required]
             [StringLength(500, ErrorMessage = "File path is way too long.")]
-                public string FilePath { get; set; }
+                public string FilePath { get; private set; }
 
             [StringLength(1000, ErrorMessage = "Description is too long, dont write romans.")]
                 public string Description { get; set; }
